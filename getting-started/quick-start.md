@@ -1,24 +1,49 @@
+---
+description: Create, connect, and publish a GitBook space in a few steps.
+---
+
 # Quick Start Guide
 
-Get up and running in 5 minutes.
+Use this guide to get a GitBook space live quickly.
+
+## Before you start
+
+Make sure you have:
+
+* A GitHub account
+* A repository for your docs, or a plan to create one
+* A clear title for your space
+
+If you want a public site, review the content before publishing. Public spaces are visible to anyone.
 
 ## Step 1: Create Your GitBook Account
 
-Go to [gitbook.com](https://gitbook.com) and sign up using GitHub.
+Go to [gitbook.com](https://gitbook.com) and sign up.
+
+GitHub sign-in is a good choice if you plan to sync a repository.
 
 ## Step 2: Create a Space
 
-In GitBook, a "Space" is a documentation site. Click **"New Space"** 
-from your dashboard.
+In GitBook, a space is your documentation site.
+
+From your dashboard, click **New Space** and give it a clear name.
 
 ## Step 3: Connect to GitHub
 
-Go to **Space Settings → GitHub Sync** and authorize your repository.
+Open **Space Settings → Git Sync** and connect your repository.
 
-## Step 4: Add Your SUMMARY.md
+This keeps your content and navigation aligned with your docs source.
 
-Create a `SUMMARY.md` file in your repo root — this defines your navigation.
+## Step 4: Add your core files
+
+Add a `README.md` file for your main landing page.
+
+Add a `SUMMARY.md` file in the repository root to define navigation.
 
 ## Step 5: Publish
 
-Go to **Share → Publish to web** and toggle it on.
+Open **Share** and turn on web publishing.
+
+If you want anyone to access the site, choose **Public**.
+
+For more publishing details, see [Publishing Your Docs](../advanced/publishing.md).
